@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		181AA4371F2ADC190060363D /* iOS-应用程序开发官方中文手册.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 181AA4361F2ADC190060363D /* iOS-应用程序开发官方中文手册.pdf */; };
 		184F707E1F10CA4D0052AAAA /* XRNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F707D1F10CA4D0052AAAA /* XRNavViewController.m */; };
+		188D46921F62367500412608 /* MyRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D46911F62367500412608 /* MyRequestManager.m */; };
 		18C3FC921F07A2C600635DAC /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FC8F1F07A2C600635DAC /* OrderModel.m */; };
 		18C3FC931F07A2C600635DAC /* TCYDiGeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FC911F07A2C600635DAC /* TCYDiGeModel.m */; };
 		18CC70FC1F1F4224004B79D6 /* 系统相机相册.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC70FB1F1F4224004B79D6 /* 系统相机相册.m */; };
@@ -27,6 +28,8 @@
 		181AA4361F2ADC190060363D /* iOS-应用程序开发官方中文手册.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iOS-应用程序开发官方中文手册.pdf"; sourceTree = "<group>"; };
 		184F707C1F10CA4D0052AAAA /* XRNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRNavViewController.h; sourceTree = "<group>"; };
 		184F707D1F10CA4D0052AAAA /* XRNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRNavViewController.m; sourceTree = "<group>"; };
+		188D46901F62367500412608 /* MyRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRequestManager.h; sourceTree = "<group>"; };
+		188D46911F62367500412608 /* MyRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRequestManager.m; sourceTree = "<group>"; };
 		18AFDA451F34614200D062A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		18C3FC8E1F07A2C600635DAC /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
 		18C3FC8F1F07A2C600635DAC /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
@@ -69,6 +72,15 @@
 				184F707D1F10CA4D0052AAAA /* XRNavViewController.m */,
 			);
 			name = "隐藏导航条方法";
+			sourceTree = "<group>";
+		};
+		188D46931F62367A00412608 /* 单利模式封装网络请求 */ = {
+			isa = PBXGroup;
+			children = (
+				188D46901F62367500412608 /* MyRequestManager.h */,
+				188D46911F62367500412608 /* MyRequestManager.m */,
+			);
+			name = "单利模式封装网络请求";
 			sourceTree = "<group>";
 		};
 		18933FCC1EDCEEBA00526A46 /* RootViewController */ = {
@@ -142,6 +154,7 @@
 				184F707F1F10CA540052AAAA /* 隐藏导航条方法 */,
 				18E45DEC1EDC10B400477810 /* Label可复制文字 */,
 				18AFDA461F34621300D062A1 /* 判断机型，系统版本 */,
+				188D46931F62367A00412608 /* 单利模式封装网络请求 */,
 				18933FCC1EDCEEBA00526A46 /* RootViewController */,
 				18E45DCF1EDC108100477810 /* Supporting Files */,
 			);
@@ -254,6 +267,7 @@
 				18C3FC931F07A2C600635DAC /* TCYDiGeModel.m in Sources */,
 				18C3FC921F07A2C600635DAC /* OrderModel.m in Sources */,
 				18E45DEF1EDC115400477810 /* KeyBoardViewController.m in Sources */,
+				188D46921F62367500412608 /* MyRequestManager.m in Sources */,
 				18CC70FC1F1F4224004B79D6 /* 系统相机相册.m in Sources */,
 				18E45DD41EDC108100477810 /* AppDelegate.m in Sources */,
 				18E45DD11EDC108100477810 /* main.m in Sources */,
