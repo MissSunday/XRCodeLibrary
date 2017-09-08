@@ -10,6 +10,11 @@
 		181AA4371F2ADC190060363D /* iOS-应用程序开发官方中文手册.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 181AA4361F2ADC190060363D /* iOS-应用程序开发官方中文手册.pdf */; };
 		184F707E1F10CA4D0052AAAA /* XRNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F707D1F10CA4D0052AAAA /* XRNavViewController.m */; };
 		188D46921F62367500412608 /* MyRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D46911F62367500412608 /* MyRequestManager.m */; };
+		188D46961F62480F00412608 /* UserDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D46951F62480F00412608 /* UserDefaultViewController.m */; };
+		188D469A1F624B2200412608 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D46991F624B2200412608 /* Person.m */; };
+		188D469D1F62793F00412608 /* NSKeyedArchiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D469C1F62793F00412608 /* NSKeyedArchiverViewController.m */; };
+		188D46A11F62813D00412608 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D46A01F62813D00412608 /* AddressModel.m */; };
+		188D46A41F6281C900412608 /* AddressModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D46A31F6281C900412608 /* AddressModelTool.m */; };
 		18C3FC921F07A2C600635DAC /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FC8F1F07A2C600635DAC /* OrderModel.m */; };
 		18C3FC931F07A2C600635DAC /* TCYDiGeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FC911F07A2C600635DAC /* TCYDiGeModel.m */; };
 		18CC70FC1F1F4224004B79D6 /* 系统相机相册.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC70FB1F1F4224004B79D6 /* 系统相机相册.m */; };
@@ -30,6 +35,16 @@
 		184F707D1F10CA4D0052AAAA /* XRNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRNavViewController.m; sourceTree = "<group>"; };
 		188D46901F62367500412608 /* MyRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRequestManager.h; sourceTree = "<group>"; };
 		188D46911F62367500412608 /* MyRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRequestManager.m; sourceTree = "<group>"; };
+		188D46941F62480F00412608 /* UserDefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultViewController.h; sourceTree = "<group>"; };
+		188D46951F62480F00412608 /* UserDefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultViewController.m; sourceTree = "<group>"; };
+		188D46981F624B2200412608 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		188D46991F624B2200412608 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		188D469B1F62793F00412608 /* NSKeyedArchiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKeyedArchiverViewController.h; sourceTree = "<group>"; };
+		188D469C1F62793F00412608 /* NSKeyedArchiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKeyedArchiverViewController.m; sourceTree = "<group>"; };
+		188D469F1F62813D00412608 /* AddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
+		188D46A01F62813D00412608 /* AddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressModel.m; sourceTree = "<group>"; };
+		188D46A21F6281C900412608 /* AddressModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressModelTool.h; sourceTree = "<group>"; };
+		188D46A31F6281C900412608 /* AddressModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressModelTool.m; sourceTree = "<group>"; };
 		18AFDA451F34614200D062A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		18C3FC8E1F07A2C600635DAC /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
 		18C3FC8F1F07A2C600635DAC /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
@@ -81,6 +96,30 @@
 				188D46911F62367500412608 /* MyRequestManager.m */,
 			);
 			name = "单利模式封装网络请求";
+			sourceTree = "<group>";
+		};
+		188D46971F62481500412608 /* NSUserDefault存取 */ = {
+			isa = PBXGroup;
+			children = (
+				188D46941F62480F00412608 /* UserDefaultViewController.h */,
+				188D46951F62480F00412608 /* UserDefaultViewController.m */,
+				188D46981F624B2200412608 /* Person.h */,
+				188D46991F624B2200412608 /* Person.m */,
+			);
+			name = "NSUserDefault存取";
+			sourceTree = "<group>";
+		};
+		188D469E1F62794300412608 /* NSKeyedArchiver归档解档 */ = {
+			isa = PBXGroup;
+			children = (
+				188D469B1F62793F00412608 /* NSKeyedArchiverViewController.h */,
+				188D469C1F62793F00412608 /* NSKeyedArchiverViewController.m */,
+				188D469F1F62813D00412608 /* AddressModel.h */,
+				188D46A01F62813D00412608 /* AddressModel.m */,
+				188D46A21F6281C900412608 /* AddressModelTool.h */,
+				188D46A31F6281C900412608 /* AddressModelTool.m */,
+			);
+			name = "NSKeyedArchiver归档解档";
 			sourceTree = "<group>";
 		};
 		18933FCC1EDCEEBA00526A46 /* RootViewController */ = {
@@ -155,6 +194,8 @@
 				18E45DEC1EDC10B400477810 /* Label可复制文字 */,
 				18AFDA461F34621300D062A1 /* 判断机型，系统版本 */,
 				188D46931F62367A00412608 /* 单利模式封装网络请求 */,
+				188D469E1F62794300412608 /* NSKeyedArchiver归档解档 */,
+				188D46971F62481500412608 /* NSUserDefault存取 */,
 				18933FCC1EDCEEBA00526A46 /* RootViewController */,
 				18E45DCF1EDC108100477810 /* Supporting Files */,
 			);
@@ -262,13 +303,18 @@
 			files = (
 				18E45DDD1EDC108100477810 /* XRCodeLibrary.xcdatamodeld in Sources */,
 				184F707E1F10CA4D0052AAAA /* XRNavViewController.m in Sources */,
+				188D46A41F6281C900412608 /* AddressModelTool.m in Sources */,
 				18E45DEB1EDC10A600477810 /* XRLabel.m in Sources */,
 				18E45DD71EDC108100477810 /* ViewController.m in Sources */,
+				188D469D1F62793F00412608 /* NSKeyedArchiverViewController.m in Sources */,
 				18C3FC931F07A2C600635DAC /* TCYDiGeModel.m in Sources */,
 				18C3FC921F07A2C600635DAC /* OrderModel.m in Sources */,
 				18E45DEF1EDC115400477810 /* KeyBoardViewController.m in Sources */,
 				188D46921F62367500412608 /* MyRequestManager.m in Sources */,
 				18CC70FC1F1F4224004B79D6 /* 系统相机相册.m in Sources */,
+				188D46A11F62813D00412608 /* AddressModel.m in Sources */,
+				188D469A1F624B2200412608 /* Person.m in Sources */,
+				188D46961F62480F00412608 /* UserDefaultViewController.m in Sources */,
 				18E45DD41EDC108100477810 /* AppDelegate.m in Sources */,
 				18E45DD11EDC108100477810 /* main.m in Sources */,
 			);
