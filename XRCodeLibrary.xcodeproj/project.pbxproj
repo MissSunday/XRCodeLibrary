@@ -15,6 +15,7 @@
 		188D469D1F62793F00412608 /* NSKeyedArchiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D469C1F62793F00412608 /* NSKeyedArchiverViewController.m */; };
 		188D46A11F62813D00412608 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D46A01F62813D00412608 /* AddressModel.m */; };
 		188D46A41F6281C900412608 /* AddressModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 188D46A31F6281C900412608 /* AddressModelTool.m */; };
+		18BD971D1F79F40A00E4A501 /* XR_UIView_contentMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD971C1F79F40A00E4A501 /* XR_UIView_contentMode.m */; };
 		18C3FC921F07A2C600635DAC /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FC8F1F07A2C600635DAC /* OrderModel.m */; };
 		18C3FC931F07A2C600635DAC /* TCYDiGeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3FC911F07A2C600635DAC /* TCYDiGeModel.m */; };
 		18CC70FC1F1F4224004B79D6 /* 系统相机相册.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CC70FB1F1F4224004B79D6 /* 系统相机相册.m */; };
@@ -46,6 +47,8 @@
 		188D46A21F6281C900412608 /* AddressModelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressModelTool.h; sourceTree = "<group>"; };
 		188D46A31F6281C900412608 /* AddressModelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressModelTool.m; sourceTree = "<group>"; };
 		18AFDA451F34614200D062A1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18BD971B1F79F40A00E4A501 /* XR_UIView_contentMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XR_UIView_contentMode.h; sourceTree = "<group>"; };
+		18BD971C1F79F40A00E4A501 /* XR_UIView_contentMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XR_UIView_contentMode.m; sourceTree = "<group>"; };
 		18C3FC8E1F07A2C600635DAC /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderModel.h; sourceTree = "<group>"; };
 		18C3FC8F1F07A2C600635DAC /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderModel.m; sourceTree = "<group>"; };
 		18C3FC901F07A2C600635DAC /* TCYDiGeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCYDiGeModel.h; sourceTree = "<group>"; };
@@ -146,6 +149,15 @@
 			name = "判断机型，系统版本";
 			sourceTree = "<group>";
 		};
+		18BD971E1F79F40D00E4A501 /* UIView_contentMode */ = {
+			isa = PBXGroup;
+			children = (
+				18BD971B1F79F40A00E4A501 /* XR_UIView_contentMode.h */,
+				18BD971C1F79F40A00E4A501 /* XR_UIView_contentMode.m */,
+			);
+			name = UIView_contentMode;
+			sourceTree = "<group>";
+		};
 		18C3FC8D1F07A2C600635DAC /* josn解析成Model田 */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +208,7 @@
 				188D46931F62367A00412608 /* 单利模式封装网络请求 */,
 				188D469E1F62794300412608 /* NSKeyedArchiver归档解档 */,
 				188D46971F62481500412608 /* NSUserDefault存取 */,
+				18BD971E1F79F40D00E4A501 /* UIView_contentMode */,
 				18933FCC1EDCEEBA00526A46 /* RootViewController */,
 				18E45DCF1EDC108100477810 /* Supporting Files */,
 			);
@@ -312,6 +325,7 @@
 				18E45DEF1EDC115400477810 /* KeyBoardViewController.m in Sources */,
 				188D46921F62367500412608 /* MyRequestManager.m in Sources */,
 				18CC70FC1F1F4224004B79D6 /* 系统相机相册.m in Sources */,
+				18BD971D1F79F40A00E4A501 /* XR_UIView_contentMode.m in Sources */,
 				188D46A11F62813D00412608 /* AddressModel.m in Sources */,
 				188D469A1F624B2200412608 /* Person.m in Sources */,
 				188D46961F62480F00412608 /* UserDefaultViewController.m in Sources */,
